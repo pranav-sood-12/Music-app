@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    background-color:black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.border{
+    border: 1px solid black;
+}
+
+.container{
+    display: flex;
+}
+
+.left{
+    width: 25vw;
+    height: 88.5vh;
+    background-color: black;
+    margin: 10px 0px 0px 10px;
+}
+
+.left_first{
+    background-color: #121212;
+    border-radius: 10px;
+    font-weight:600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.left_first *{
+    background-color: #121212;
+    color: white;
+}
+
+.left_first li{
+    display:flex;
+    align-items: center;
+    margin: 20px 20px 25px 20px;
+}
+.left_first span{
+    margin-left: 15px;
+}
+
+.left_second{
+    
+    border-radius: 10px;
+    background-color: #121212;
+    margin-top: 5px;
+}
+
+.left_second *{
+    background-color: #121212;
+    font-family: 'Poppins', sans-serif;
+}
+
+.left_second_first{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px 15px 10px;
+}
+
+.left_second_first li{
+    display: flex;
+    align-items: center;
+    color: #b3b3b3;
+}
+
+.left_second_first span{
+    font-weight:500;
+    padding: 0px 0px 0px 10px;
+    color: #b3b3b3;
+}
+
+.playlist{
+    margin: 15px;
+    overflow:auto;
+    height: 241px;
+    scrollbar-color: #6969dd #e0e0e0;
+    scrollbar-width: thin;
+}
+
+.playlist::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  .playlist::-webkit-scrollbar-track {
+    background-color: #121212;
+  }
+  
+  .playlist::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+
+.playlist *{
+    color: white;
+}
+
+.pbox1{
+    background-color: #242424;
+    border-radius: 10px;
+    margin: 8px 0px 8px 0px;
+    padding: 4px 20px 4px 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.song-details{
+    background-color: #242424;
+    padding-top: 2px;
+    font-size: medium;
+    font-weight:600;
+    margin: 0px 20px 0px 20px;
+}
+
+.song-details :last-child{
+    font-weight: 400;
+    color:#b3b3b3;
+}
+
+.song-details p{
+    background-color: inherit;
+}
+
+.play{
+    background-color: inherit;
+}
+
+.play button{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 5px 8px 5px 8px;
+    font-weight:500;
+}
+
+
+.left_second_third {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center; 
+    width: 80%; 
+    margin: 5px 0px 5px 25px;
+}
+
+.left_second_third p {
+    margin: 4px;
+    font-size: x-small;
+    color: #b3b3b3;
+}
+
+
+
+.button2{
+    margin: 5px 0px 5px 25px;
+    color: white;
+    padding: 8px 13px 8px 13px;
+    font-size:smaller;
+    border-radius: 20px;
+    border: 0.1px solid white;
+}
+
+#right{
+    width: 75vw;
+    height: 88.5vh;
+    margin: 10px 10px 0px 3px;
+}
+
+
+.right_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 10px 15px;
+    background-color: #121212;
+    border-radius: 10px;
+}
+
+.header_buttons{
+    display: flex;
+    height: 25px;
+    background-color: #121212;
+}
+.header_buttons img{
+    padding: 0px 10px 0px 10px;
+    background-color: #121212;
+}
+
+.login_signup{
+    display: flex;
+    background-color: #121212;
+}
+
+.login_signup button{
+    font-size: medium;
+    font-weight:600;
+    padding: 14px 27px 14px 27px;
+    border-radius: 25px;
+}
+
+.login_signup :first-child{
+    border: none;
+    color: #b3b3b3;
+    background-color: #121212;
+}
+
+.login_signup :last-child{
+    color: black;
+    background-color: white;
+    border: 0.1px solid white;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px 0px 20px;
+}
+
+.content :first-child{
+    color: white;
+    font-size:x-large;
+    font-weight:600;
+}
+
+.content :last-child{
+    font-size: medium;
+    font-weight:500;
+    color: #b3b3b3;
+}
+
+.card-store{
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 70vh;
+    overflow: auto;
+}
+
+.card-store::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  .card-store::-webkit-scrollbar-track {
+    background-color: #121212;
+  }
+  
+  .card-store::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+
+
+.cards{
+    width: 144px;
+    background-color: #171717;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 15px 15px 15px;
+    margin: 15px 5px 10px 20px;
+    border-radius: 7px;
+}
+
+.cards *{
+    background-color: #171717;
+}
+
+.card-area{
+    width: 144px;
+}
+
+.card-area img{
+    height: 144px;
+    width: 144px;
+    border-radius: 7px;
+}
+
+.title{
+    font-size: medium;
+    font-weight: 600;
+    color: white;
+}
+
+.card-area :last-child{
+    color: #b3b3b3;
+    font-size: small;
+    font-weight: 500;
+}
+
+.signup-footer{
+    margin: auto;
+    background: 
+    linear-gradient(to left, #519af5, transparent),
+    linear-gradient(to right, #ae2996, transparent);
+background-blend-mode: screen;
+
+    width: 100%;
+    height: 10vh;
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.signup-footer p{
+    background-color: inherit;
+    font-size: 14px;
+    color: white;
+}
+
+.signup-footer :last-child{
+    font-weight: 600;
+}
